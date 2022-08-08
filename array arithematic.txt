@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int arr[10], n, i, sum = 0,mean=0,median=0;
+    cout << "Enter the number of element in the array : ";
+    cin >> n;
+    cout << "\nEnter the elements of the array : ";
+    for (i = 0; i < n; i++)
+    cin >> arr[i];
+    for (i = 0; i < n; i++)
+    {
+        sum += arr[i];
+        mean= sum/n;
+        median=arr[n/2];
+    }
+    cout << "\nSum of array elements : " << sum;
+    cout << "\nmean of array elements : " << mean;
+    cout << "\nmedian of array elements : " << median;
+    return 0;
+    
+}

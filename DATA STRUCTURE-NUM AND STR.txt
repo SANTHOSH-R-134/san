@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+  class student{
+   int rollno;
+   string name;
+   string dept;
+   public:
+   void getdetails(){
+       cin>>rollno;
+       cin>>name;
+       cin>>dept;
+       cout << "\nrollno:" << rollno;
+       cout << "\nName:" << name;
+       cout << "\nDept:" << dept;
+   }
+};
+int main()
+{
+    student m1;
+    m1.getdetails();
+    return 0;
+}

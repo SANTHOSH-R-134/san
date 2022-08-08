@@ -1,0 +1,5 @@
+1. create xhtml doc for clg web site txt styling,linking,images, list, table by highlinghting facilities in dept.
+2. write a java script to validate in following page in registration page.
+A-name
+B-password(should not be lss than 6 char).
+C-email should not contain invalid addresss).

@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,sum=0;
+    int c=0,d=0;
+    cout<< "Enter the lower limt:";
+    cin>>c;
+    cout<< "Enter the lower limt:";
+    cin>>d;
+    cout << " The natural numbers are: \n";
+    for (i = c; i <= d; i++) 
+    {
+        cout << i << " ";
+		sum=sum+i;
+    }
+     cout << "\nThe sum of first 10 natural numbers: \n" <<sum << endl;
+}

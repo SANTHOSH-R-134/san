@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+  struct Date{
+   int date;
+   int month;
+   int year;
+};
+int main()
+{
+    struct Date person_x;
+    cin>>person_x.date;
+    cin>>person_x.month>>person_x.year;
+    cout << "\nDate:" << person_x.date << endl;
+    cout << "\nMonth:" << person_x.month << endl;
+    cout << "\nYear:" << person_x.year << endl;
+   
+    return 0;
+}
+    
